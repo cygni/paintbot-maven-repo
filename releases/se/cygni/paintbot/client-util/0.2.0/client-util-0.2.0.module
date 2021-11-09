@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "se.cygni.paintbot",
+    "module": "client-util",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "y5gbpbmrrrhabozsxre4unvs2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "se.cygni.paintbot",
+          "module": "api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-util-0.2.0.jar",
+          "url": "client-util-0.2.0.jar",
+          "size": 11303,
+          "sha512": "f574af284d6cc50fcdd19e858046aa6edc171dc20d3d8ee7425751a8e3f7a4291720988f108068253443d077fed18cede7e9867955cedff18d31d94672c822ff",
+          "sha256": "515e223130237f30771c35f77db0ae12eeb6e05adff7bbb092c6461bf5e628cb",
+          "sha1": "69526a310446ac0150727197e4d52d599a5664f7",
+          "md5": "c229dca82b6c2e9f9972e2b356bd8367"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "se.cygni.paintbot",
+          "module": "api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-util-0.2.0.jar",
+          "url": "client-util-0.2.0.jar",
+          "size": 11303,
+          "sha512": "f574af284d6cc50fcdd19e858046aa6edc171dc20d3d8ee7425751a8e3f7a4291720988f108068253443d077fed18cede7e9867955cedff18d31d94672c822ff",
+          "sha256": "515e223130237f30771c35f77db0ae12eeb6e05adff7bbb092c6461bf5e628cb",
+          "sha1": "69526a310446ac0150727197e4d52d599a5664f7",
+          "md5": "c229dca82b6c2e9f9972e2b356bd8367"
+        }
+      ]
+    }
+  ]
+}

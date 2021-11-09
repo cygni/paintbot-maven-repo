@@ -1,0 +1,261 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "se.cygni.paintbot",
+    "module": "client",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "y5gbpbmrrrhabozsxre4unvs2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "se.cygni.paintbot",
+          "module": "client-util",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "se.cygni.paintbot",
+          "module": "api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-websocket",
+          "version": {
+            "requires": "2.0.5.RELEASE"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-0.2.0.jar",
+          "url": "client-0.2.0.jar",
+          "size": 28281,
+          "sha512": "ce54ced30d7b1d7f8a1afb8db74947d5aa9b06d6beba6fb185cff91d6cef79c27f1f7835930288049c0b9b1df8ada50a67b6723c187ec0d0a5057abf143d0a18",
+          "sha256": "56e1c4e1642c2091f0bace95bb0055908e5ffde1d743635de758c29fa3befd0b",
+          "sha1": "c95bba9135f6e6e957b4e5cd377acfa8084ddf9f",
+          "md5": "de37e329b34f191e511b8fe84c1615cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "se.cygni.paintbot",
+          "module": "client-util",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "se.cygni.paintbot",
+          "module": "api",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.2"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-websocket",
+          "version": {
+            "requires": "2.0.5.RELEASE"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-0.2.0.jar",
+          "url": "client-0.2.0.jar",
+          "size": 28281,
+          "sha512": "ce54ced30d7b1d7f8a1afb8db74947d5aa9b06d6beba6fb185cff91d6cef79c27f1f7835930288049c0b9b1df8ada50a67b6723c187ec0d0a5057abf143d0a18",
+          "sha256": "56e1c4e1642c2091f0bace95bb0055908e5ffde1d743635de758c29fa3befd0b",
+          "sha1": "c95bba9135f6e6e957b4e5cd377acfa8084ddf9f",
+          "md5": "de37e329b34f191e511b8fe84c1615cf"
+        }
+      ]
+    }
+  ]
+}

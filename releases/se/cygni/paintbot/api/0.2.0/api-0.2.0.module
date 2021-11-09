@@ -1,0 +1,247 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "se.cygni.paintbot",
+    "module": "api",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "y5gbpbmrrrhabozsxre4unvs2m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.1.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.1.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.karaf.shell",
+          "module": "org.apache.karaf.shell.table",
+          "version": {
+            "requires": "4.0.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-0.2.0.jar",
+          "url": "api-0.2.0.jar",
+          "size": 61521,
+          "sha512": "8194d0a09a487087c6066a319b9338c3e4ccb9b1c2f9c8ede7716b7a54898d631720cc713d22528a4f0b281473b0acc711a713bfb4ac7ea58643711482721ff5",
+          "sha256": "30b501362fff77a4ddfaef511244effa6d01bfa738ed3563ec1942b40ca1e17f",
+          "sha1": "e78042ac5bd6861c3e4ef365e99e0ebb44fda771",
+          "md5": "aab09c3ce203f3c09a3d87c16e902bb8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.1.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.1.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.karaf.shell",
+          "module": "org.apache.karaf.shell.table",
+          "version": {
+            "requires": "4.0.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.8.1"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-0.2.0.jar",
+          "url": "api-0.2.0.jar",
+          "size": 61521,
+          "sha512": "8194d0a09a487087c6066a319b9338c3e4ccb9b1c2f9c8ede7716b7a54898d631720cc713d22528a4f0b281473b0acc711a713bfb4ac7ea58643711482721ff5",
+          "sha256": "30b501362fff77a4ddfaef511244effa6d01bfa738ed3563ec1942b40ca1e17f",
+          "sha1": "e78042ac5bd6861c3e4ef365e99e0ebb44fda771",
+          "md5": "aab09c3ce203f3c09a3d87c16e902bb8"
+        }
+      ]
+    }
+  ]
+}
